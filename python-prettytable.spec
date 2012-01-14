@@ -2,7 +2,7 @@
 
 Name:		python-prettytable
 Version:	0.5
-Release:	2%{?dist}
+Release:	3%{?dist}
 Summary:	Python library to display tabular data in tables
 
 Group:		Development/Languages
@@ -40,6 +40,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Jan 14 2012 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.5-3
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_17_Mass_Rebuild
+
 * Tue Jul 05 2011 Chris Lalancette <clalance@redhat.com> - 0.5-2
 - BuildRequire python-setuptools
 
