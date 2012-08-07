@@ -1,13 +1,13 @@
 %{!?python_sitelib: %global python_sitelib %(%{__python} -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())")}
 
 Name:		python-prettytable
-Version:	0.5
-Release:	4%{?dist}
+Version:	0.6
+Release:	1%{?dist}
 Summary:	Python library to display tabular data in tables
 
 Group:		Development/Languages
 License:	BSD
-Source0:	http://pypi.python.org/packages/source/P/PrettyTable/prettytable-0.5.tar.gz
+Source0:	http://pypi.python.org/packages/source/P/PrettyTable/prettytable-0.6.tar.gz
 URL:		http://pypi.python.org/pypi/PrettyTable
 
 BuildArch:	noarch
@@ -40,6 +40,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Tue Aug  7 2012 Pádraig Brady <P@draigBrady.com> - 0.6-1
+- Update to 0.6
+
 * Sat Jul 21 2012 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.5-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_18_Mass_Rebuild
 
